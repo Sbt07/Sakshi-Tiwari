@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <title>Sakshi Tiwari</title>
+</head>
+<body>
+    <!--header section-->
+    <section class="header">
+        <a href="#" class="logo"><i class="fas fa-user"></i>Sakshi Tiwari</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+
+    
+    <!--Home Section-->
+    <section class="home" id="home">
+        <div class="slide" style="background: url(bg.png) no-repeat;">
+    </section>
+
+
+    <!--about section-->
+    <section class="about" id="about">
+        <div class="image">
+            <img src="about.png" alt="abt">
+        </div>
+        <div class="content">
+            <h3 class="title">About</h3>
+            <p>A passionate and motivated 3rd-year Electronics and Communication Engineering (ECE) student with a strong drive for innovation and problem-solving. Currently pursuing my degree at Pandit Deendayal Energy University.
+                        
+                My journey in ECE has been an exciting one, filled with hands-on projects, collaborative teamwork, and a thirst for knowledge. From circuit design to software development, I'm continuously expanding my skill set and pushing the boundaries of what's possible in the field of electrical and computer engineering.
+                
+                You'll always find me exploring the latest tech trends, tinkering with hardware, or participating in hackathons to bring creative ideas to life.
+                
+            My hobbies include Frontend Web Development, Graphic Designing, reading novels, acrylic painting, and organizing basically everything.</p>
+        </div>
+        <div class="tab-container">
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+            <p class="tab-links t2" onclick="opentab('Hard Skills')">Hard Skills</p>
+            <p class="tab-links t2" onclick="opentab('Soft Skills')">Soft Skills</p>
+        </div>
+        <div class="tab-contents active-tab" id="Education">
+            <ul class="Edu-list">
+                <li class="Edu-title">• Pandit Deendayal Energy University</li>
+                <li class="Edu-content ec">Bachelor of Technology - Electronics & Communication Engineering</li>
+                <li class="Edu-content">2021-2025</li>
+                <li class="Edu-content">CPI : 9.42 </li>
+                <li class="Edu-content">Grade: O</li>
+            </ul>
+            <ul class="Edu-list">
+                <li class="Edu-title">• A-One School, Satellite</li>
+                <li class="Edu-content">Higher Secondary School</li>
+                <li class="Edu-content">2021</li>
+                <li class="Edu-content">85%</li>
+            </ul>
+            <ul class="Edu-list">
+                <li class="Edu-title">• A-One School, Satellite</li>
+                <li class="Edu-content">Senior Secondary School</li>
+                <li class="Edu-content">2019</li>
+                <li class="Edu-content">89%</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="Hard Skills">
+            <p class="skill-tit">•  Programming Languages</p>
+                <ul class="skill-content">
+                    <li class="sc">Python</li>
+                    <li class="sc">C/Java</li>
+                </ul>
+            <p class="skill-title">•  Web Development</p>
+                <ul  class="skill-content">
+                    <li class="sc">HTML/CSS</li>
+                    <li class="sc">JavaScript</li>
+                    <li class="sc">Bootstrap</li>
+                </ul>
+            <p class="skill-title">•  Hardware Descriptive Language</p>
+                <ul  class="skill-content">
+                    <li class="sc">Xilinx Vivado</li>
+                    <li class="sc">Verilog</li>
+                </ul>
+            <p class="skill-title">•  Simulation & Circuit Design</p>
+                <ul  class="skill-content">
+                    <li class="sc">MATLAB</li>
+                    <li class="sc">Arduino</li>
+                    <li class="sc">Tina-Ti</li>
+                    <li class="sc">Tinkercad</li>
+                    <li class="sc">Logisim</li>
+                    <li class="sc">QUCS</li>
+                </ul>
+            <p class="skill-title">•  UI/UX Design</p>
+                <ul  class="skill-content">
+                    <li class="sc">Figma</li>
+                </ul>
+            <p class="skill-title">•  Graphic Designing</p>
+                <ul  class="skill-content">
+                    <li class="sc">Adobe Photoshop</li>
+                    <li class="sc">Canva</li>
+                </ul>
+            <p class="skill-title">•  Languages</p>
+                <ul  class="skill-content">
+                    <li class="sc">English</li>
+                    <li class="sc">Hindi</li>
+                    <li class="sc">Gujrati</li>
+                </ul>
+            <p class="skill-title">•  Microsoft Office</p>
+                <ul  class="skill-content">
+                    <li class="sc">Microsoft Word</li>
+                    <li class="sc">Microsoft PowerPoint</li>
+                </ul> 
+        </div>
+        <div class="tab-contents" id="Soft Skills">
+            <ul>
+                <li class="ss">Interpersonal Skills</li>
+                <li class="ss">Communication</li>
+                <li class="ss">Teamwork</li>
+                <li class="ss">Leadership</li>
+                <li class="ss">Time Management</li>
+                <li class="ss">Adaptability</li>
+                <li class="ss">Resilience</li>
+                <li class="ss">Problem-Solving</li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+
+    <!--courses section-->
+    <section class="courses" id="courses">
+        <h1 class="heading h1"><span>Certified Courses</span></h1>
+        <div class="swiper course-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <img src="webd.png" alt="">
+                    <h3>Web Development</h3>
+                    <p>Internshala - 8 weeks - HTML, CSS, Bootstrap, DBMS, PHP, Javascript, React</p>
+                    <a href="Web Development Training - Certificate of Completion.pdf" target="_blank" class="btn">View Certificate</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="ml.png" alt="">
+                    <h3>Machine Learning</h3>
+                    <p>Udemy - 6 weeks - Machine Learning Algorithms using Python</p>
+                    <a href="ML - AI, Python & R + ChatGPT - Certificate.pdf" target="_blank" class="btn">View Certificate</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="vlsi.png" alt="">
+                    <h3>VLSI Design</h3>
+                    <p>Internshala - 6 weeks - VLSI, HDL, FSM, System Design using FPGA</p>
+                    <a href="VLSI Design Training - Certificate of Completion.pdf" target="_blank" class="btn">View Certificate</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="uiux.png" alt="">
+                    <h3>UI/UX Design</h3>
+                    <p>Udemy - 4 weeks - Figma to build UI, Motions, Animations, Typography</p>
+                    <a href="UI_UX Design - Certificate.pdf" target="_blank" class="btn">View Certificate</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="iot.png" alt="">
+                    <h3>IoT - ML Training</h3>
+                    <p>Bolt - IoT - 8 weeks - Web Design, Machine Learning, IoT-based Projects</p>
+                    <a href="IoT-ML - Certificate of Training.pdf" target="_blank" class="btn">View Certificate</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="internship.png" alt="">
+                    <h3>Internship & Job Preparation</h3>
+                    <p>Internshala - 4 weeks - Job Hunt, Switching Gears</p>
+                    <a href="Internship & Job Preparation Training - Certificate of Completion.pdf" target="_blank" class="btn">View Certificate</a>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+    <!--projects section-->
+    <section class="projects" id="projects">
+        <!--Webd Projects-->
+        <h1 class="heading h2"><span>Web Stories</span></h1>
+        <div class="web-stories">
+            <div class="sites">
+                <i class="fas fa-book"></i>
+                <h3>Book Haven</h3>
+                <p>Interactive online bookstore showcasing diverse reads with arrivals & deals.</p>
+                <a href="https://sbt07.github.io/Book-Haven/" target="_blank" class="btn">View Site</a>
+            </div>
+            <div class="sites">
+                <i class="fas fa-hiking"></i>
+                <h3>TrekWays</h3>
+                <p>Dynamic travel & adventure site to explore various activities with packages.</p>
+                <a href="https://sbt07.github.io/TrekWays/" target="_blank" class="btn">View Site</a>
+            </div>
+            <div class="sites">
+                <i class="fas fa-shopping-basket"></i>
+                <h3>AquaFresh</h3>
+                <p>Grocery store site with products, cart, categories, search, login, about, reviews & blogs.</p>
+                <a href="https://sbt07.github.io/AquaFresh/" target="_blank" class="btn">View Site</a>
+            </div>
+            <div class="sites">
+                <i class="fas fa-utensils"></i>
+                <h3>Gusto</h3>
+                <p>Restaurant website with menu, food gallery, blogs, order-details, reviews & blogs</p>
+                <a href="https://sbt07.github.io/Gusto/" target="_blank" class="btn">View Site</a>
+            </div>
+            <div class="sites hidden">
+                <i class="fas fa-building"></i>
+                <h3>Easybank</h3>
+                <p>Frontend Mentor Challenge - Easybank Landing Page from pictures to web.</p>
+                <a href="https://sbt07.github.io/Easybank-Landing-Page/" target="_blank" class="btn">View Site</a>
+            </div>
+            <div class="sites hidden">
+                <i class="fas fa-leaf"></i>
+                <h3>Florosia</h3>
+                <p>Bloom-selling & gifting site with featured products, reviews & contact details.</p>
+                <a href="https://sbt07.github.io/Florosia/" target="_blank" class="btn">View Site</a>
+            </div>
+            <div class="sites hidden">
+                <i class="fas fa-home"></i>
+                <h3>Easy Abode</h3>
+                <p>PG accommodation platform, comfort and convenience using in various cities.</p>
+                <a href="https://sbt07.github.io/PGEasyAbode/" target="_blank" class="btn">View Site</a>
+            </div>
+            <div class="sites hidden">
+                <i class="fas fa-coins"></i>
+                <h3>Vite App</h3>
+                <p>Frontend Mentor Challenge - Vite App - Manage - from pictures to web.</p>
+                <a href="https://sbt07.github.io/manage/" target="_blank" class="btn">View Site</a>
+            </div>
+        </div>
+        <div class="button">
+            <a href="" id="see">See More</a>
+        </div>
+
+        <!--ECE Projects-->
+        <h1 class="heading hc"><span>Circuits & Creativity</span></h1>
+        <div class="swiper circuits-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="traffic-light.png" alt="" srcset="">
+                    </div>
+                    <div class="content">
+                        <h3>Density-based Traffic Light Controller</h3>
+                        <p>Uses Arduino & optimizes signal timings by adjusting light durations based on real-time traffic density, ensuring efficient flow.</p>
+                        <a href="https://github.com/Sbt07/Density-based-Traffic-Light-Controller" target="_blank" class="btn">Explore</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="water-level-sensor.png" alt="" srcset="">
+                    </div>
+                    <div class="content">
+                        <h3>Water Level Sensor</h3>
+                        <p>Implemented on a breadboard to detect and measure water levels, facilitating real-time monitoring for various applications.</p>
+                        <a href="https://github.com/Sbt07/Water-level-sensor" target="_blank" class="btn">Explore</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="cpu-logisim.png" alt="" srcset="">
+                    </div>
+                    <div class="content">
+                        <h3>CPU in Logisim (4096)</h3>
+                        <p>Simulated in Logisim, providing a virtual environment to understand and explore the fundamentals of computer architecture.</p>
+                        <a href="https://github.com/Sbt07/CPU-Logisim" target="_blank" class="btn">Explore</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="breast-cancer-analysis-model.png" alt="" srcset="">
+                    </div>
+                    <div class="content">
+                        <h3>Breast Cancer Analysis Model</h3>
+                        <p>A machine learning model, leveraging data-driven insights to aid in early detection and medical decision-making.</p>
+                        <a href="https://github.com/Sbt07/Breast_Cancer_Analysis" target="_blank" class="btn">Explore</a>
+                    </div>
+                </div>           
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!--Mini Projects-->
+        <h1 class="heading h3"><span>Mini Projects</span></h1>
+        <div class="swiper mini-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <img src="tictactoe.png" alt="">
+                    <h3>Tic Tac Toe</h3>
+                    <p>Game - HTML, React</p>
+                    <a href="https://sbt07.github.io/Tic-Tac-Toe/" target="_blank" class="btn">Explore</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="taskminder.png" alt="">
+                    <h3>Task Minder</h3>
+                    <p>To-Do List Maker</p>
+                    <a href="https://sbt07.github.io/Task-Minder/" target="_blank" class="btn">Explore</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="unscrambleme.png" alt="">
+                    <h3>Unscramble Me</h3>
+                    <p>Scramble</p>
+                    <a href="https://sbt07.github.io/Unscramble-Me/" target="_blank" class="btn">Explore</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="calculator.png" alt="">
+                    <h3>Calculator</h3>
+                    <p>HTML, CSS, JS</p>
+                    <a href="https://sbt07.github.io/Calculator/" target="_blank" class="btn">Explore</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="typingblitz.png" alt="">
+                    <h3>Typing Blitz</h3>
+                    <p>Typing Speed Tester</p>
+                    <a href="https://sbt07.github.io/Typing-Blitz/" target="_blank" class="btn">Explore</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="chromapalatte.png" alt="">
+                    <h3>Chroma Palatte</h3>
+                    <p>Color Palatte Generator</p>
+                    <a href="https://sbt07.github.io/Chroma-Palette-Wiz/" target="_blank" class="btn">Explore</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="memorymarvel.png" alt="">
+                    <h3>Memory Marvel</h3>
+                    <p>HTML, CSS, JS</p>
+                    <a href="https://sbt07.github.io/Memory-Marvel/" target="_blank" class="btn">Explore</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="currencify.png" alt="">
+                    <h3>Currencify</h3>
+                    <p>Currency convertor</p>
+                    <a href="https://sbt07.github.io/Currencify/" target="_blank" class="btn">Explore</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="piano.png" alt="">
+                    <h3>Piano</h3>
+                    <p>Virtual playable piano</p>
+                    <a href="https://sbt07.github.io/Virtual-Piano/" target="_blank" class="btn">Explore</a>
+                </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Resume download section-->
+       <section class="resume">
+        <div class="container">
+           <h3>For a comprehensive overview of my skills, experiences, <br>and achievements, feel free to download my resume below</h3>
+           <a href="Resume - Sakshi Tiwari.pdf" download class="btn">Download CV</a>
+        </div>
+        </section>
+
+
+
+    <!--contact section-->
+    <section class="footer" id="contact">
+        <div class="share">
+            <a href="tel: 6359121005" class="fas fa-phone rotate"></a>
+            <a href="mailto: sakshibhupendra@gmail.com" class="fas fa-envelope"></a>
+            <a href="https://www.instagram.com/saakshiiii.07?igsh=NGs3MmUxcjN0bDNj" target="_blank" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/sakshi-tiwari-095610255" target="_blank" class="fab fa-linkedin"></a>
+            <a href="https://github.com/Sbt07" target="_blank" class="fab fa-github"></a>
+        </div>
+        <div class="credit">Copyright © <span>Sakshi Tiwari</span> |   All Rights Reserved</div>
+    </section>
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
