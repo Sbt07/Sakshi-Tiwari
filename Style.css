@@ -742,6 +742,9 @@ body{
     .resume h3{
         font-size: 1.7rem;
     }
+    .footer .credit{
+    font-size: 1.6rem;
+}
 }
 @media (max-width:450px){
     html{
