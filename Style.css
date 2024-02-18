@@ -407,10 +407,11 @@ body{
     justify-content: center;
 }
 .projects .hc{
-    margin-top: 3.5rem;
+    margin-top: -5rem;
 }
 .projects .circuits-slider{
     padding-bottom: 3rem;
+    margin-top: -2rem;
 }
 .projects .circuits-slider .slide{
     margin: 2rem 0;
@@ -456,7 +457,7 @@ body{
     transform: scale(1.02);
 }
 .projects .h2{
-    margin-top: -8rem;
+    margin-top: 1.6rem;
 }
 .projects .web-stories{
     display: grid;
@@ -527,7 +528,7 @@ body{
     transform: scale(1.1);
 }
 .heading.h3{
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 
@@ -728,10 +729,10 @@ body{
         font-size: 16px;
     }
     .projects .hc{
-        margin-top: 3rem;
+        margin-top: -3rem;
     }
     .projects .h2{
-        margin-top: -4rem;
+        margin-top: 1rem;
     }
     .projects .mini-slider .slide h3{
         font-size: 2.2rem;
@@ -742,9 +743,6 @@ body{
     .resume h3{
         font-size: 1.7rem;
     }
-    .footer .credit{
-    font-size: 1.6rem;
-}
 }
 @media (max-width:450px){
     html{
